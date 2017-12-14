@@ -191,6 +191,10 @@
                     </execution>
                 </executions>
             </plugin>
+            
+            <!--  new logic  -->
+            
+            
             <!--  
             <plugin>
                 <groupId>com.google.code.maven-replacer-plugin</groupId>
