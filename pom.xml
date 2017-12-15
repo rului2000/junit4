@@ -456,9 +456,16 @@
                     </reportSet>
                 </reportSets>
             </plugin>
-        </plugins>
-    </reporting>
-
+             
+  
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-pmd-plugin</artifactId>
+        <version>3.8</version>
+      </plugin>
+  
+   </plugins>
+   </reporting>
     <profiles>
         <profile>
             <id>junit-release</id>
